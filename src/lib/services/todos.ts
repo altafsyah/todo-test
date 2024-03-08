@@ -5,8 +5,8 @@ import {
 } from "@reduxjs/toolkit/query/react";
 
 export type Todo = {
-  userId: number;
-  id: number;
+  userId: number | undefined;
+  id: number | undefined;
   title: string;
   completed: boolean;
 };

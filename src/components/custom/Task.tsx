@@ -12,6 +12,7 @@ import {
   PaginationPrevious,
 } from "../ui/pagination";
 import { ScrollArea } from "../ui/scroll-area";
+import { Todo } from "@/lib/services/todos";
 
 function TaskCard({ title, completed }: Todo) {
   return (
